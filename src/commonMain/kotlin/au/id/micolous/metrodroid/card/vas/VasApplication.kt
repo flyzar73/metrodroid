@@ -44,7 +44,7 @@ data class VasApplication(
             ImmutableByteArray.fromHex("4F53452E5641532E3031")
         )
 
-        private const val TYPE = "applevas"
+        private const val TYPE = "vas"
 
         val FACTORY: ISO7816ApplicationFactory = object : ISO7816ApplicationFactory {
             override val typeMap: Map<String, KSerializer<out ISO7816Application>>
